@@ -17,7 +17,7 @@ code .
 ## 🗂️ **STEP 3: UNDERSTAND PROJECT STRUCTURE (File Structure from Zero)**
 
 When VS Code opens, you'll see this structure. Let me explain **EVERY SINGLE FOLDER/FILE**:
-```
+
 jobportal-backend/
 │
 ├── src/
@@ -51,7 +51,7 @@ jobportal-backend/
 ├── mvnw     ← Maven wrapper (Linux/Mac)
 ├── mvnw.cmd ← Maven wrapper (Windows)
 └── .gitignore
-```
+
 
 ---
 
@@ -68,7 +68,7 @@ jobportal-backend/
 | **exception** | Complaint Manager (handle angry customers) | Return proper error messages |
 
 ---
-
+```
 ## 🛠️ **STEP 4: CREATE FOLDER STRUCTURE**
 
 **Right-click on `com.jobportal.backend` in VS Code → New Folder:**
@@ -82,9 +82,9 @@ Create these folders (one by one):
 6. `config`
 7. `exception`
 8. `util`
-
-**Your structure should now look like:**
 ```
+**Your structure should now look like:**
+
 com.jobportal.backend/
 ├── JobportalBackendApplication.java
 ├── controller/
